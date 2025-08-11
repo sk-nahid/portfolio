@@ -6,7 +6,7 @@ export default function About() {
             <div className="container mx-auto lg:grid grid-cols-2 items-center gap-12 px-6">
 
                 {/* Profile Image */}
-                <div className="mx-auto w-full">
+                <div data-aos="fade-right" className="mx-auto w-full">
                     <img
                         src={aboutPhoto}
                         alt="Profile"
@@ -15,7 +15,7 @@ export default function About() {
                 </div>
 
                 {/* Text Content */}
-                <div className="max-w-xl">
+                <div data-aos="fade-left" className="max-w-xl">
                     <h3 className="text-primary font-semibold text-lg">About Me</h3>
                     <h2 className="text-4xl font-bold mb-4">Who I Am</h2>
                     <p className="mb-6 leading-relaxed text-base-content">

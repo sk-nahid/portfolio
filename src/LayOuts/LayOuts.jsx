@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
+import Navbar from '../Components/NavBar';
+import Footer from '../Components/Footer';
+import Aos from 'aos';
+
+
 
 const LayOuts = () => {
+
     return (
-        
-        <Outlet></Outlet>
+        <div>
+            <Navbar />
+            <Outlet></Outlet>
+            <Footer></Footer>
+        </div>
+
     );
 };
 

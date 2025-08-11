@@ -22,3 +22,9 @@
   animation: gradientMove 10s ease infinite;
 }
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    
+  }
+}

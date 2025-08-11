@@ -1,12 +1,12 @@
-import profile from '../assets/profile.jpeg'
+
 import profile1 from '../assets/profile.png'
 
 export default function Hero() {
     return (
-        <div className="hero min-h-[80vh] bg-animated  ">
+        <div className="hero min-h-[80vh] bg-animated  " id='home'>
             <div className="hero-content flex-col lg:flex-row-reverse justify-between md:w-[80%]">
                 {/* Profile Image */}
-                <div className='p-4'>
+                <div className='p-4 ' >
                     <img
                         src={profile1}
                         className="w-sm md:w-fit rounded-full shadow-2xl border-4 border-primary"

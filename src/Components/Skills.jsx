@@ -76,6 +76,9 @@ export default function Skills() {
   const renderSkills = (skills) =>
     skills.map(({ name, icon, desc }) => (
       <div
+        data-aos="flip-left"
+        
+        
         key={name}
         className="flex flex-col items-center gap-3 hover:scale-105 transition-transform  duration-300 cursor-pointer hover:bg-secondary py-8 bg-base-300 hover:shadow-2xl shadow-xl rounded-2xl scroll-smooth "
         title={name}
@@ -93,11 +96,11 @@ export default function Skills() {
           My Skills
         </h2>
 
-        <div className="mb-12">
+        <div  className="mb-12">
           <h3 className="text-3xl font-semibold mb-6 text-primary text-center">
             Frontend
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 md:grid-cols-3 gap-10 justify-center items-center text-center ">
+          <div  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 md:grid-cols-3 gap-10 justify-center items-center text-center ">
             {renderSkills(frontendSkills)}
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function Navbar() {
   );
 
     return (
-      <div className="bg-base-100 shadow-md px-4 md:px-8">
+      <div className="bg-base-100 shadow-md px-4 md:px-8 sticky top-1 z-50">
     <div className="navbar lg:max-w-7xl mx-auto">
       {/* Left: Logo */}
       <div className="flex-1">
