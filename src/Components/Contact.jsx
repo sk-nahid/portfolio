@@ -32,7 +32,7 @@ export default function Contact() {
             <div className="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
                 {/* Left Side - Contact Info */}
-                <div className="space-y-4 text-lg">
+                <div data-aos="flip-up" className="space-y-4 text-lg">
                     <p className="flex items-center gap-3 text-2xl font-semibold ">
                         S.K. Nahid
                     </p>
@@ -73,7 +73,7 @@ export default function Contact() {
                 </div>
 
                 {/* Right Side - Contact Form */}
-                <form onSubmit={sendEmail} className="space-y-4">
+                <form data-aos="flip-up" onSubmit={sendEmail} className="space-y-4">
                     <input name="name" type="text" placeholder="Your Name" className="input input-bordered w-full" required />
                     <input name="email" type="email" placeholder="Your Email" className="input input-bordered w-full" required />
                     <textarea name="message" placeholder="Your Message" className="textarea textarea-bordered w-full h-32" required></textarea>

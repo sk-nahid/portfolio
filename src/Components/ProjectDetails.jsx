@@ -162,7 +162,7 @@ export default function ProjectDetails() {
         ))}
 
         {/* Links */}
-        <div className="flex gap-4 mt-6">
+        <div className="flex flex-col md:flex-row  gap-4 mt-6">
           <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             Live Site
           </a>

@@ -30,7 +30,7 @@ export default function About() {
 
                     
 
-                    <a href="/resume.pdf" className="btn btn-primary">
+                    <a href="/resume.pdf" download className="btn btn-primary">
                         View Resume
                     </a>
                 </div>

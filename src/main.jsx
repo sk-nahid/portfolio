@@ -8,7 +8,7 @@ import { router } from './Router/Router.jsx'
 import Aos from 'aos'
 
 Aos.init({
-  offset: window.innerHeight * 0.3,
+  offset: window.innerHeight * 0.1,
   duration: 3000,
   
   once: false,
